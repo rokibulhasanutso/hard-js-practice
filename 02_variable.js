@@ -39,9 +39,9 @@ var abc = "firstname";
 
 // Note: I suggest that variable name decleare with alphabate
 var yourname = "Humyrah";
-var your_name = "Humyrah";
+var your_name = "Humyrah"; // Writing like this is called snake case
 // better word convention
-var yourName = "Monalisa";
+var yourName = "Monalisa"; // Writing like this is called camel case
 
 
 // JavaScript update version(ES6) declaration let and const
