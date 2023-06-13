@@ -42,3 +42,49 @@ var yourname = "Humyrah";
 var your_name = "Humyrah";
 // better word convention
 var yourName = "Monalisa";
+
+
+// JavaScript update version(ES6) declaration let and const
+
+// let
+
+// 1. let is a block scope declaration
+{
+    let personName = 'Hasan';
+}
+// Note: It is declare within block scope
+// you can not access outside of blockscope
+console.log(personName); // It is wrong or error
+
+// Right way to
+{
+    let personName = 'Hasan';
+    console.log(personName);
+}
+
+// 2. let can not redeclare in the block scope
+{
+    let personName = 'Hasan';
+    console.log(personName);
+    // let personName = "Robart" // wrong
+}
+
+// Right way to
+{
+    let personName = 'Hasan';
+    console.log(personName);
+}
+
+let personName = "Robart";
+
+// 3. Mandatory or not
+{
+    // declare mandatory
+    let personName;
+    {
+        // but define not mandatory
+        let otherName = "Robart";
+    }
+    // define after declaration
+    personName = 'Hasan';
+}
