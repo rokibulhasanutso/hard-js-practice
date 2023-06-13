@@ -69,7 +69,7 @@ console.log(personName); // It is wrong or error
     // let personName = "Robart" // wrong
 }
 
-// Right way to
+// Right way to this
 {
     let personName = 'Hasan';
     console.log(personName);
@@ -87,4 +87,21 @@ let personName = "Robart";
     }
     // define after declaration
     personName = 'Hasan';
+}
+
+
+// const
+// It is same to like let declarer variable
+// Just between difference is 
+//  1. let dose not have to be declared and defined together.
+//  2. but const must be declared and defined together 
+
+// {
+//     const PI;    // wrong
+//     PI = 3.1416; // wrong
+// }
+
+// Right way to this
+{
+    const PI = 3.1416;
 }
